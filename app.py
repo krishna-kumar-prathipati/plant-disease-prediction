@@ -16,7 +16,7 @@ import os
 import tensorflow
 import keras
 from keras.preprocessing.image import load_img,img_to_array,ImageDataGenerator
-import matplotlib.pyplot as plot
+
 from keras.applications.vgg19 import VGG19,preprocess_input,decode_predictions
 from keras.models import load_model
 
