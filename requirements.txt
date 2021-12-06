@@ -4,4 +4,4 @@ Jinja2==2.10.1
 
 Werkzeug==0.15.5
 numpy>=1.9.2
-tensorflow==2.7.0
+
