@@ -28,7 +28,7 @@ from gevent.pywsgi import WSGIServer
 # Define a flask app
 app = Flask(__name__)
 
-MODEL_PATH = 'C:\\Users\\santh\\Downloads\\best_model_vgg19.h5'
+MODEL_PATH = 'plant-disease-prediction/best_model_vgg19.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
